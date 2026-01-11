@@ -83,7 +83,7 @@ export default function Home() {
                 priority
               />
               <div className="text-xs uppercase tracking-[0.3em] text-cyan-300/80 font-bold">
-                RelAI Vision Deck
+                RelAI Pitch Deck
               </div>
             </div>
             <div className="text-xs text-zinc-500">
