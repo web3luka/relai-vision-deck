@@ -548,31 +548,111 @@ function RoadmapSlide(): ReactNode {
         <div className="rounded-xl border border-fuchsia-500/30 bg-fuchsia-500/5 p-5">
           <div className="mb-3 flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-fuchsia-500/20 text-fuchsia-400 text-sm font-bold">
-              P3
+              Q1
             </div>
-            <span className="text-sm font-medium text-fuchsia-300">Q1-Q2 2026</span>
+            <span className="text-sm font-medium text-fuchsia-300">2026</span>
           </div>
-          <h4 className="text-sm font-semibold text-slate-200 mb-2">Ecosystem Expansion</h4>
+          <h4 className="text-sm font-semibold text-slate-200 mb-2">Strategic Expansion</h4>
           <ul className="space-y-2 text-sm text-zinc-300">
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>Build our own payment facilitator</span>
+              <span>Tier-1 strategic partnerships (Solana & EVM)</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>Staking module launch</span>
+              <span>Staking & yield farming launch</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>Native payment facilitator release</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>Hackathon & grant applications</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>ERC-8004 integration</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-amber-500/30 bg-amber-500/5 p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold">
+              Q2
+            </div>
+            <span className="text-sm font-medium text-amber-300">2026</span>
+          </div>
+          <h4 className="text-sm font-semibold text-slate-200 mb-2">Revenue & Growth</h4>
+          <ul className="space-y-2 text-sm text-zinc-300">
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
+              <span>Premium & Enterprise tiers revenue activation</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
               <span>AI agent-to-agent payments</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>CEX listings & institutional onboarding</span>
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
+              <span>Tier 2 CEX listing applications</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>Governance DAO fully live</span>
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
+              <span>VC & funding program applications</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
+              <span>Coordinated Marketing Campaigns</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-cyan-500/30 bg-cyan-500/5 p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400 text-sm font-bold">
+              Q3
+            </div>
+            <span className="text-sm font-medium text-cyan-300">2026</span>
+          </div>
+          <h4 className="text-sm font-semibold text-slate-200 mb-2">Ecosystem & Mobile</h4>
+          <ul className="space-y-2 text-sm text-zinc-300">
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
+              <span>Governance DAO live</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
+              <span>Ecosystem Fund for RelAI-based startups</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
+              <span>Mobile App development (Seeker, Android, iOS)</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 text-sm font-bold">
+              Q4
+            </div>
+            <span className="text-sm font-medium text-emerald-300">2026</span>
+          </div>
+          <h4 className="text-sm font-semibold text-slate-200 mb-2">Institutional Scale</h4>
+          <ul className="space-y-2 text-sm text-zinc-300">
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Start-up company establishment</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Enterprise off-chain payment integrations</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Major Tier-1 CEX listings & institutional onboarding</span>
             </li>
           </ul>
         </div>
