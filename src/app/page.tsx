@@ -37,7 +37,8 @@ const slides: SlideDef[] = [
   { id: 2, label: "Problem", Component: ProblemSlide },
   { id: 3, label: "Vision", Component: VisionSlide },
   { id: 4, label: "How it works", Component: HowItWorksSlide },
-  { id: 5, label: "Closing", Component: ClosingSlide },
+  { id: 5, label: "Roadmap", Component: RoadmapSlide },
+  { id: 6, label: "Closing", Component: ClosingSlide },
 ];
 
 export default function Home() {
@@ -283,9 +284,9 @@ function CoverSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <Globe2 size={32} className="mt-1 text-cyan-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Solana, Base & Polygon</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Multi-chain support</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                High throughput and low fees across Solana, Base and Polygon make true micropayments finally practical.
+                High throughput and low fees across multiple networks make true micropayments finally practical.
               </p>
             </div>
           </div>
@@ -474,6 +475,106 @@ function HowItWorksSlide(): ReactNode {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </SlideShell>
+  );
+}
+
+function RoadmapSlide(): ReactNode {
+  return (
+    <SlideShell
+      eyebrow="Roadmap"
+      title="Building the future of API monetization"
+      subtitle="Our path to becoming the default payment layer for APIs."
+    >
+      <div className="grid gap-6 md:grid-cols-3">
+        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 text-sm font-bold">
+              P1
+            </div>
+            <span className="text-sm font-medium text-emerald-300">Done</span>
+          </div>
+          <h4 className="text-sm font-semibold text-slate-200 mb-2">Launch & Foundation</h4>
+          <ul className="space-y-2 text-sm text-zinc-300">
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Token launch & DEX listing</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Live API payment utility (beta)</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>First API integrations</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Strategic partnerships</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-cyan-500/30 bg-cyan-500/5 p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400 text-sm font-bold">
+              P2
+            </div>
+            <span className="text-sm font-medium text-cyan-300">Done</span>
+          </div>
+          <h4 className="text-sm font-semibold text-slate-200 mb-2">Growth & Adoption</h4>
+          <ul className="space-y-2 text-sm text-zinc-300">
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
+              <span>SDK & dev tools release</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
+              <span>Multi-network support (Solana, Base, Polygon, SEI EVM, Peaq, Ethereum)</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
+              <span>Multi-facilitator support (Thirdweb, Dexter, PayAI)</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
+              <span>Open public API registration</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-fuchsia-500/30 bg-fuchsia-500/5 p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-fuchsia-500/20 text-fuchsia-400 text-sm font-bold">
+              P3
+            </div>
+            <span className="text-sm font-medium text-fuchsia-300">Q1-Q2 2026</span>
+          </div>
+          <h4 className="text-sm font-semibold text-slate-200 mb-2">Ecosystem Expansion</h4>
+          <ul className="space-y-2 text-sm text-zinc-300">
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>Build our own payment facilitator</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>Staking module launch</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>AI agent-to-agent payments</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>CEX listings & institutional onboarding</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span>Governance DAO fully live</span>
+            </li>
+          </ul>
         </div>
       </div>
     </SlideShell>
