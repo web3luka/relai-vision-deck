@@ -15,9 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "RelAI Pitch Deck",
   description: "Monetize your APIs with instant micropayments",
-  icons: {
-    icon: "/RelayAI-logo.png",
-  },
 };
 
 export default function RootLayout({

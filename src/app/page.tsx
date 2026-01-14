@@ -252,7 +252,7 @@ function HeroSlide(): ReactNode {
         </div>
 
         <p className="mx-auto max-w-xl text-sm md:text-lg text-zinc-400 leading-relaxed">
-          The instant micropayment layer for APIs on Solana. No subscriptions, no middlemenjust
+          The instant micropayment layer for APIs. No subscriptions, no middlemenjust
           pay per call for every request.
         </p>
       </div>
@@ -265,7 +265,7 @@ function CoverSlide(): ReactNode {
     <SlideShell
       eyebrow="RelAI and x402 Protocol"
       title="Monetize your APIs with instant micropayments"
-      subtitle="RelAI turns every API request into a revenue event with on chain micropayments on Solana. No subscriptions, no middlemen, just instant settlement for every call."
+      subtitle="RelAI turns every API request into a revenue event with on chain micropayments. No subscriptions, no middlemen, just instant settlement for every call."
       showLogo
     >
       <div className="grid gap-5 md:grid-cols-3">
