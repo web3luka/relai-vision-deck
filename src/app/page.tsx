@@ -252,8 +252,7 @@ function HeroSlide(): ReactNode {
         </div>
 
         <p className="mx-auto max-w-xl text-sm md:text-lg text-zinc-400 leading-relaxed">
-          The instant micropayment layer for APIs. No subscriptions, no middlemenjust
-          pay per call for every request.
+          The universal x402 payment infrastructure. APIs, campaigns, payment links and custodial wallets on one protocol.
         </p>
       </div>
     </div>
@@ -264,8 +263,8 @@ function CoverSlide(): ReactNode {
   return (
     <SlideShell
       eyebrow="RelAI and x402 Protocol"
-      title="Monetize your APIs with instant micropayments"
-      subtitle="RelAI turns every API request into a revenue event with on chain micropayments. No subscriptions, no middlemen, just instant settlement for every call."
+      title="The universal x402 payment layer"
+      subtitle="RelAI is the infrastructure for x402 micropayments. Protect APIs, run campaigns, create payment links and manage custodial wallets across Solana and EVM chains."
       showLogo
     >
       <div className="grid gap-5 md:grid-cols-3">
@@ -273,9 +272,9 @@ function CoverSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <Coins size={32} className="mt-1 text-emerald-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Pay per call</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Pay per anything</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                Pay from one cent per request with near real time settlement instead of monthly invoices.
+                API calls, campaign entries, content access or one time links. Every interaction settles instantly on chain.
               </p>
             </div>
           </div>
@@ -286,7 +285,7 @@ function CoverSlide(): ReactNode {
             <div className="space-y-1">
               <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Multi-chain support</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                High throughput and low fees across multiple networks make true micropayments finally practical.
+                Live on Solana, Base, Avalanche and SKALE Base with zero gas fees for users. RelAI sponsors all transaction costs.
               </p>
             </div>
           </div>
@@ -295,9 +294,9 @@ function CoverSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <Cpu size={32} className="mt-1 text-fuchsia-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Built for AI and data</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">SDK and facilitator</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                Designed for AI and data heavy workloads where every call matters.
+                One npm package for client and server. The RelAI facilitator sponsors gas so users never pay transaction fees.
               </p>
             </div>
           </div>
@@ -311,8 +310,8 @@ function ProblemSlide(): ReactNode {
   return (
     <SlideShell
       eyebrow="Problem"
-      title="API monetization is stuck in the subscription era"
-      subtitle="Developers love APIs, but paying and getting paid for them is still slow, manual and gated."
+      title="Web payments are stuck in the subscription era"
+      subtitle="Whether it is APIs, content, campaigns or digital goods, paying online is still slow, gated and full of middlemen."
       showLogo
     >
       <div className="grid gap-5 md:grid-cols-2">
@@ -322,7 +321,7 @@ function ProblemSlide(): ReactNode {
             <div className="space-y-1">
               <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Subscription lock in</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                Heavy subscriptions and enterprise contracts even for small or experimental use cases.
+                Heavy subscriptions and enterprise contracts even for a single API call or one time content access.
               </p>
             </div>
           </div>
@@ -342,9 +341,9 @@ function ProblemSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <Slash size={32} className="mt-1 text-rose-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">No per call primitive</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">No micropayment primitive</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                There is no native way to charge per request at internet scale using existing payment rails.
+                There is no native way to charge per use at internet scale using existing payment rails.
               </p>
             </div>
           </div>
@@ -355,7 +354,7 @@ function ProblemSlide(): ReactNode {
             <div className="space-y-1">
               <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Long tail left out</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                Indie developers and niche APIs struggle to monetize at all, despite real usage.
+                Indie developers, creators and small businesses struggle to monetize digital goods at all.
               </p>
             </div>
           </div>
@@ -369,8 +368,8 @@ function VisionSlide(): ReactNode {
   return (
     <SlideShell
       eyebrow="Vision"
-      title="An API liquidity layer for the internet"
-      subtitle="Every API becomes a liquid, programmable revenue stream that any app, agent or protocol can tap into."
+      title="A payment liquidity layer for the internet"
+      subtitle="Every digital interaction becomes a liquid, programmable revenue stream that any app, agent or protocol can tap into."
       showLogo
     >
       <div className="grid gap-5 md:grid-cols-2">
@@ -378,9 +377,9 @@ function VisionSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <Coins size={32} className="mt-1 text-emerald-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Every call is value</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Every interaction is value</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                Each API call carries a tiny on chain payment, turning usage directly into revenue.
+                API calls, campaign entries, payment links. Each interaction carries an on chain micropayment.
               </p>
             </div>
           </div>
@@ -391,7 +390,7 @@ function VisionSlide(): ReactNode {
             <div className="space-y-1">
               <h3 className="text-xl md:text-2xl font-semibold text-slate-50">Shared liquidity layer</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                APIs plug into a common liquidity layer instead of rebuilding billing and payments from scratch.
+                Apps, APIs and campaigns plug into a common x402 layer instead of rebuilding billing from scratch.
               </p>
             </div>
           </div>
@@ -428,7 +427,7 @@ function HowItWorksSlide(): ReactNode {
     <SlideShell
       eyebrow="How it works"
       title="From HTTP 402 to on chain micropayments"
-      subtitle="RelAI wraps your existing API behind an x402 aware gateway that verifies payment before forwarding the request."
+      subtitle="The x402 protocol turns any HTTP endpoint into a paid resource. The SDK handles signing, the facilitator settles on chain."
       showLogo
     >
       <div className="grid gap-5 md:grid-cols-2">
@@ -436,9 +435,9 @@ function HowItWorksSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <FileCode2 size={32} className="mt-1 text-cyan-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">1. Publish your spec</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">1. Install the SDK</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                Upload your OpenAPI definition, set prices per endpoint and list your API on the RelAI marketplace.
+                <code className="text-cyan-300">npm i @relai-fi/x402</code> — protect any Express endpoint with one line of middleware. Set price, wallet, network.
               </p>
             </div>
           </div>
@@ -447,9 +446,9 @@ function HowItWorksSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <ArrowRightLeft size={32} className="mt-1 text-cyan-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">2. Call through x402</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">2. Client signs payment</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                Clients send normal HTTP requests that include a signed micropayment using the x402 protocol.
+                On 402, the SDK auto-signs an EIP-3009 authorization (EVM) or SPL transfer (Solana). One atomic signature, no approvals needed.
               </p>
             </div>
           </div>
@@ -458,9 +457,9 @@ function HowItWorksSlide(): ReactNode {
           <div className="grid grid-cols-[auto,1fr] items-start gap-3">
             <ShieldCheck size={32} className="mt-1 text-emerald-300" />
             <div className="space-y-1">
-              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">3. Verify and route</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-slate-50">3. Facilitator settles</h3>
               <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
-                RelAI verifies the payment on chain in a few hundred milliseconds and then forwards the request to your API.
+                The RelAI facilitator executes the on-chain transfer, sponsors gas fees, and confirms settlement in seconds.
               </p>
             </div>
           </div>
@@ -485,8 +484,8 @@ function RoadmapSlide(): ReactNode {
   return (
     <SlideShell
       eyebrow="Roadmap"
-      title="Building the future of API monetization"
-      subtitle="Our path to becoming the default payment layer for APIs."
+      title="Building the x402 payment standard"
+      subtitle="Our path to becoming the default micropayment infrastructure for the internet."
     >
       <div className="grid gap-6 md:grid-cols-3">
         <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-5">
@@ -528,15 +527,15 @@ function RoadmapSlide(): ReactNode {
           <ul className="space-y-2 text-sm text-zinc-300">
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
-              <span>SDK & dev tools release</span>
+              <span>@relai-fi/x402 SDK published on npm</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
-              <span>Multi-network support (Solana, Base, Polygon, SEI EVM, Peaq, Ethereum)</span>
+              <span>Multi-network live (Solana, Base, Avalanche, SKALE Base)</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
-              <span>Multi-facilitator support (Thirdweb, Dexter, PayAI)</span>
+              <span>Multi-facilitator support (Thirdweb, Dexter, PayAI, OpenFacilitator)</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
@@ -545,34 +544,34 @@ function RoadmapSlide(): ReactNode {
           </ul>
         </div>
 
-        <div className="rounded-xl border border-fuchsia-500/30 bg-fuchsia-500/5 p-5">
+        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-5">
           <div className="mb-3 flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-fuchsia-500/20 text-fuchsia-400 text-sm font-bold">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 text-sm font-bold">
               Q1
             </div>
-            <span className="text-sm font-medium text-fuchsia-300">2026</span>
+            <span className="text-sm font-medium text-emerald-300">Done</span>
           </div>
           <h4 className="text-sm font-semibold text-slate-200 mb-2">Strategic Expansion</h4>
           <ul className="space-y-2 text-sm text-zinc-300">
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>Tier-1 strategic partnerships (Solana & EVM)</span>
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Native RelAI facilitator live (facilitator.x402.fi)</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>Staking & yield farming launch</span>
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>EIP-3009 transferWithAuthorization on all EVM networks</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>Native payment facilitator release</span>
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Lottery campaigns with on-chain reward payouts</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+              <span>Buyer Proxy custodial wallets with 2FA</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
               <span>Hackathon & grant applications</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
-              <span>ERC-8004 integration</span>
             </li>
           </ul>
         </div>
@@ -673,8 +672,7 @@ function ClosingSlide(): ReactNode {
             </span>
           </h1>
           <p className="mx-auto max-w-xl text-sm md:text-base text-zinc-400 leading-relaxed">
-            Let&apos;s make every API call a revenue event. Reach out to talk about integrating RelAI and the x402
-            protocol into your stack.
+            Let&apos;s make every digital interaction a revenue event. Reach out to integrate RelAI x402 into your stack.
           </p>
         </div>
 
